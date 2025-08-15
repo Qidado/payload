@@ -1,0 +1,29 @@
+{
+  "name": "jungl-payload-backend",
+  "version": "1.0.0",
+  "description": "Jungl Payload CMS Backend",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsx build.ts && tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "payload": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "@payloadcms/bundler-vite": "^0.1.7",
+    "@payloadcms/db-postgres": "^3.51.0",
+    "@payloadcms/plugin-seo": "^3.51.0",
+    "@payloadcms/richtext-slate": "^3.51.0",
+    "payload": "^3.51.0",
+    "express": "^5.1.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "tsx": "^4.20.4",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
