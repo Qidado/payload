@@ -1,6 +1,6 @@
 import { CollectionConfig } from 'payload'
 
-export const Users: CollectionConfig = {
+const Users: CollectionConfig = {
   slug: 'users',
   auth: true,
   admin: {
@@ -24,3 +24,5 @@ export const Users: CollectionConfig = {
     },
   ],
 }
+
+export default Users;

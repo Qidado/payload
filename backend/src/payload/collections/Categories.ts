@@ -31,3 +31,6 @@ export const Categories: CollectionConfig = {
     },
   ],
 }
+
+const Categories = {};
+export default Categories;

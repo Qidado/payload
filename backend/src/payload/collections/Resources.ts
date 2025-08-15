@@ -1,6 +1,6 @@
 import { CollectionConfig } from 'payload'
 
-export const Resources: CollectionConfig = {
+const Resources: CollectionConfig = {
   slug: 'resources',
   admin: {
     useAsTitle: 'title',
@@ -105,3 +105,5 @@ export const Resources: CollectionConfig = {
     },
   ],
 }
+
+export default Resources
